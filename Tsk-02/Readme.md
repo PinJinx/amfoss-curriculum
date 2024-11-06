@@ -10,14 +10,14 @@ The whole thing starts with a user prompt: either create a new file, or read an 
 
 ### Setting up and Navigating the Editor
 
-**1. Terminal Modes (set_raw_mode & reset_terminal_mode):
+**1. Terminal Modes (set_raw_mode & reset_terminal_mode):**
 Elimination of default terminal like line buffering and echoing characters were the first things to do. A call `set_raw_mode()` turns off canonical mode as well as echo so I receive input character by character without waiting for "Enter.". `reset_terminal_mode()` restores these settings so I am not ending the program with the terminal in disarray.
 
-**2. ClearScreen: Screen clearing is next.
+**2. ClearScreen: Screen clearing is next.**
 It simply outputs an ANSI escape code to blank the screen. Extremely useful when you need to flush out the display at any refresh.
 When I make a new file, it automatically opens a temp file allowing the user to start writing immediately. If reading an existing file, it loads the specified file text into a temp one, so changes saved there first.
 
-**2. Saving Files (ReadAndSave & CreateAndSave):
+**2. Saving Files (ReadAndSave & CreateAndSave):**
 It saves based on its whether it is a new or opened file. Saves the new file under an existing name to be given to the user; for an open file, it overwrites the original file. Afterwards, it erases them both regardless.
 
 ---
