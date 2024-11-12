@@ -109,7 +109,7 @@ void SplitWrds(char* sentence) {
     for(int i = 0; i< (tw-83)/2;i++){
         printf(" ");
     }
-    printf("EXIT - CTRL+X     SEARCH - CTRL+L     UNDO - CTRL+K     REDO - CTRL+K");
+    printf("EXIT - CTRL+X     SEARCH - CTRL+H     UNDO - CTRL+K     REDO - CTRL+L");
     for(int i = 0; i< (tw-83)/2;i++){
         printf(" ");
     }
