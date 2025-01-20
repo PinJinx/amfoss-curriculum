@@ -1,0 +1,22 @@
+.register{
+    border: 2px solid gray;
+    border-radius: 2px;
+}
+.rgrtbx{
+    margin-left: 35%;
+    background-color: rgb(228, 236, 234);
+    width: 500px;
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+    box-shadow: 5px 10px;
+    align-content:center;
+    min-height: 200px;
+    height: 50%;
+}
+
+
+.registertxt{
+    display: inline-block;
+}
