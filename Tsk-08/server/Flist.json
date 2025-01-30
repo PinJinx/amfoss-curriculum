@@ -877,7 +877,9 @@
       "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM5ODA4MjYxM15BMl5BanBnXkFtZTcwMTM3NTE5Ng@@._V1_SX300.jpg",
       "rating": "4.92/5",
       "noofrating": 12,
-      "comments": [],
+      "comments": [
+        "Test User@$sadas"
+      ],
       "playerRating": "0/5"
     },
     {

@@ -222,6 +222,7 @@ function Comments({comments,id}:{comments:Array<String>; id:string})
     }
     return(
         <div className="bg-white w-full rounded-md mt-5">
+
             <h1></h1>
             <ul>
                 <form onSubmit={AddComm} className="flex">
